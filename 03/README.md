@@ -20,8 +20,8 @@
 
 - 제출마감 : `2017-03-24 18:00`
 - 제출방법
- - [제출 폴더](https://www.dropbox.com/request/j0ru14rpHdKawqk9uRXr)
- - 제출명 : `이름-학번.zip` (예: 홍길동-2013.zip)
- - 제출물 :
-   - 결과물은 index.html 하나에 모두 작성합니다.
-   - 외부 라이브러리의 사용은 금합니다.
+  - [제출 폴더](https://www.dropbox.com/request/j0ru14rpHdKawqk9uRXr)
+  - 제출명 : `이름-학번.zip` (예: honggildong-2013.zip, 이름은 영어로 써주세요)
+  - 제출물 :
+    - 결과물은 index.html 하나에 모두 작성합니다.
+    - 외부 라이브러리의 사용은 금합니다.
