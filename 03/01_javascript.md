@@ -110,6 +110,27 @@ var y = 7; // 초기화 Initialize y
 ```
 
 
+https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
+- 코드의 실행 전, 컴파일 단계에서 scope 안에 있는 `function, var`가 미리 메모리에 선언
+- `function`의 경우 정의까지 됨
+
+```javascript
+catName("Chloe");
+
+function catName(name) {
+  console.log("My cat's name is " + name);
+}
+```
+
+```javascript
+console.log(typeof fun);
+var fun = 3;
+console.log(typeof fun);
+function fun(){}
+console.log(typeof fun);
+```
+
+
 Function-level Scoping
 ---
 - C나 Java와 같은 block scope({} 밖에서는 안을 알 수 없음)대신 function-level scope을 사용
@@ -146,27 +167,6 @@ function foo() {
 foo();
 ```
 
-Hoisting
----
-https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
-- 코드의 실행 전, 컴파일 단계에서 scope 안에 있는 `function, var`가 미리 메모리에 선언
-- `function`의 경우 정의까지 됨
-
-```javascript
-catName("Chloe");
-
-function catName(name) {
-  console.log("My cat's name is " + name);
-}
-```
-
-```javascript
-console.log(typeof fun);
-var fun = 3;
-console.log(typeof fun);
-function fun(){}
-console.log(typeof fun);
-```
 
 Closure
 ---
