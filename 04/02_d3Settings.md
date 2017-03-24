@@ -25,11 +25,10 @@ D3란?
 - [다운로드](https://github.com/d3/d3/releases/download/v4.2.6/d3.zip) 후 삽입
 - 폴더 구조
 ```
-project-folder/
-    d3/
-        d3.v3.js
-        d3.v3.min.js (optional:출시할 때 사용하는 간소화 버젼)
-    index.html
+d3.v3.js
+d3.v3.min.js (optional:출시할 때 사용하는 간소화 버젼)
+index.js
+index.html
 ```
 
 - 템플릿
@@ -39,11 +38,10 @@ project-folder/
 <head>
         <meta charset="utf-8">
         <title>D3 페이지 템플릿</title>
-        <script type="text/javascript" src="d3/d3.v3.js"></script>
+        <script type="text/javascript" src="d3.v3.js"></script>
     </head>
     <body>
-        <script type="text/javascript">
-        </script>
+        <script src="index.js"</script>
     </body>
 </html>
 ```

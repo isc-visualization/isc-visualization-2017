@@ -24,6 +24,7 @@
  - [제출 폴더](https://www.dropbox.com/request/Eyy4jrhrKESQUnMFFeGM)
  - 제출명 : 폴더명 `이름-학번` (예: honggildong-2013.zip)
  - 제출물 :
-   - 결과물은 index.html 하나에 모두 작성합니다.
+   - 결과물은 index.html와 index.js에 작성합니다.
+   - d3파일은 `<script src="https://d3js.org/d3.v4.min.js"></script>`로 연결합니다.
    - 결과물 파일은 모두 `honggildong-2013` 폴더에 넣은 후 압축 하여 업로드합니다.
    - d3 이외의 외부 라이브러리의 사용은 금합니다.
