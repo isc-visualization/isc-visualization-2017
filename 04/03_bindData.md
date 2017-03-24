@@ -30,14 +30,14 @@ p.text("새 문단 추가");
 
  - d3 : d3 라이브러리의 d3 오브젝트를 가져옴
 
- - select("body") :
+ - `.select("body")` :
    - d3의 [select()](https://github.com/d3/d3-selection#selection) 명령은 CSS 셀렉터와 마찬가지의 방식으로 DOM 요소를 가져올 수 있음
    - 현재는 *첫번째 body 태그* 를 가져옴
    - 여러개의 태그를 동시에 선택하고 싶을 때는 [selectAll()](https://github.com/d3/d3-selection#selectAll)을 사용
- - append('p') :
+ - `.append('p')` :
    - [append()](https://github.com/d3/d3-selection#selection_append)는 새로운 DOM 요소를 현재 셀렉션 *끝에* 삽입
    - 현재는 body 안에 빈 p를 삽입
- - text("새 문단 추가 ") :
+ - `text("새 문단 추가 ")` :
    - [text()](https://github.com/d3/d3-selection#selection_text)는 태그 내부에 텍스트 삽입 `<tag>text</tag>`
    - 현재는 p 태그 사이에 인자로 넘겨진 텍스트를 삽입 `<p>새 문단 추가</p>`
 

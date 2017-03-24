@@ -45,6 +45,8 @@
 ![using marks and channels](https://cloud.githubusercontent.com/assets/253408/18579334/08a3f81c-7c30-11e6-8432-2fd40d78da77.png)
 
 - 예시와 같이 개별 속성attribute이 1개의 채널만 사용하는 것이 효과적
+
+
 - 크기size나 형태shape 채널은 모든 종류의 마크에 적용되기 어려움
   - 영역area 마크는 자체적으로 크기와 형태 내포하고 있음 => 색상 채널을 사용
 ![choropleth](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Australian_Census_2011_demographic_map_-_Australia_by_SLA_-_BCP_field_2715_Christianity_Anglican_Persons.svg/280px-Australian_Census_2011_demographic_map_-_Australia_by_SLA_-_BCP_field_2715_Christianity_Anglican_Persons.svg.png)

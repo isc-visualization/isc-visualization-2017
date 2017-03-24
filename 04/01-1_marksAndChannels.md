@@ -4,11 +4,11 @@
 마크와 채널의 사용 Using Marks And Channels
 ---
 ### 표현력과 유효성 Expressiveness and Effectiveness
-- Expressiveness Principle : 데이터셋의 속성이 가진 정보 모두와 그것들만을 all of, and only 시각적으로 표현해야한다.
+- Expressiveness Principle : 데이터셋의 속성이 가진 정보 전부와 그 정보만을 all of, and only 시각적으로 표현해야한다.
 - Effectiveness Principle : 채널의 부각salience은 속성의 중요도와 쌍을 이루어야함. 중요한 정보가 가장 잘 표현되도록 한다.
 
 ### 채널의 순위 Channel Rankings
-- 채널은 유효성은 서로 차이가 남
+- 채널은 유효성에는 차이가 있음
 - 공간적인 배치가 가장 효과적
 ![channel rankings](https://cloud.githubusercontent.com/assets/253408/18580538/283e1c8c-7c37-11e6-994f-0aa3455f27d4.png)
 
@@ -26,7 +26,9 @@
 
 #### Stevens
 ![Stevens](https://cloud.githubusercontent.com/assets/253408/18580819/a9ff7ec2-7c38-11e6-9c34-2469e1945913.png)
+
 - S는 지각된 감각의 정도 I는 물리적 강도
+
 ![stevens](https://cloud.githubusercontent.com/assets/253408/18580869/f57c8390-7c38-11e6-8e02-431ad8ccf7b3.png)
 
 #### Cleveland and McGill

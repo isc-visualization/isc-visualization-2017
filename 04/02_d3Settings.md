@@ -33,7 +33,7 @@ project-folder/
 ```
 
 - 템플릿
-```
+```HTML
 <!DOCTYPE html>
 <html lang="kr">
 <head>
