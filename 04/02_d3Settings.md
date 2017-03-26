@@ -41,7 +41,7 @@ index.html
         <script type="text/javascript" src="d3.v3.js"></script>
     </head>
     <body>
-        <script src="index.js"</script>
+        <script src="index.js"></script>
     </body>
 </html>
 ```

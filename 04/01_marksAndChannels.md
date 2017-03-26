@@ -24,6 +24,7 @@
 
 
 ![geometric primitives](https://cloud.githubusercontent.com/assets/253408/18578797/f0453702-7c2c-11e6-8bbf-353b48543727.png)
+
 `점(0D), 선(1D), 영역(2D), 부피(3D)`
 
 

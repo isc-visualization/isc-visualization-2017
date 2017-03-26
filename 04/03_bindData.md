@@ -84,7 +84,6 @@ d3.select("body").selectAll("p")
 ```
  - enter()에 의해 반환 받은 empty placeholder nodes에 p태그 DOM을 삽입
 
-
 - 개발자 도구에서 `console.log(d3.selectAll("p"))`로 노드 확인해보기
 
 
@@ -143,5 +142,11 @@ d3.select("body").selectAll("p")
 
 .attr("class", function(d,i) {
   if(i % 2 === 0) return 'red';
+})
+
+.classed("red", true)
+
+.classed("red", function(d,i) {
+  return i % 2 === 0;
 })
 ```
