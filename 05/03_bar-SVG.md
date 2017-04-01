@@ -81,7 +81,8 @@ bar.attr('x', function(d,i) {
 ```javascript
 var label = svg.selectAll('text.label')
     .data(dataset)
-   .enter().append('text.labe')
+   .enter().append('text')
+    .attr('class', 'label')
     .attr('x', 0)
     .attr('y', 0)
     .attr('text', function(d){return d;})
