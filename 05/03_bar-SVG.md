@@ -18,7 +18,7 @@ d3.select('#chart').append('svg');
 ```javascript
 var w = 120;
 var h = 500;
-var svg = d3.select('chart').append('svg')
+var svg = d3.select('#chart').append('svg')
   .attr('width', w)
   .attr('height', h);
 
