@@ -57,7 +57,7 @@ console.log(ordinalScale(dataset[0].product)); //scale은 mapping 함수
  - categorical type의 attribute를 점으로 표현하고 싶을 때 사용
 
 ```javascript
-var x = d3.scaleLinear()
+var x = d3.scalePoint()
   .domain(domain)
   .range([0, w]);
 
@@ -72,7 +72,7 @@ var x = d3.scaleLinear()
 #### scaleBand
 
 -  domain 에서 continuous-numeric한 값으로 이루어진 range로 매핑
-![band](https://raw.githubusercontent.com/d3/d3-scale/master/img/band.png)
+![point](https://raw.githubusercontent.com/d3/d3-scale/master/img/band.png)
 
 
 ```javascript
