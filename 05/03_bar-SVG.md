@@ -85,7 +85,7 @@ var label = svg.selectAll('text.label')
     .attr('class', 'label')
     .attr('x', 0)
     .attr('y', 0)
-    .attr('text', function(d){return d;})
+    .text(function(d){return d;})
 ```
 
 
