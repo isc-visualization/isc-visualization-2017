@@ -48,7 +48,7 @@ function randDataset() {
 
 ```javascript
 svg.on('click', function(d) {
-  randDataset();
+  randDataset.apply(this);
   bar.each(function(d) {
       xy.set(this, [x(d.product), y(d.sales)]); // d3.local을 업데이트 
     })
