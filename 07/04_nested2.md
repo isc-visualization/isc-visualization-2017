@@ -68,7 +68,7 @@ data.forEach(function(d) {
   })
 });
 valueDomain[0] = 0;
-var valueRange = [0, innerH];
+var valueRange = [0, innerW];
 var value = d3.scaleLinear()
   .domain(valueDomain).range(valueRange);
 ```
