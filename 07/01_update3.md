@@ -47,6 +47,7 @@ function updateText(selection) {
 ```
 
 ```javascript
+bar.data(dataset);
 bar.select('text')
   .transition(t)
   .call(updateText);
