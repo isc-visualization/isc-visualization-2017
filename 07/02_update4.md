@@ -21,7 +21,8 @@ var barEnter = bar.enter().append('g')
 
 - .update 상태에 .enter된 막대가 추가되었으므로(merge 통해서), 막대 전체가 translate 되므로 추가된 막대도 함께 이동
 ```javascript
-bar.transition(t) 
+bar.update(updateBar)
+  .transition(t) 
   .style('opacity', 1)
   .call(translateBar);
 ```
