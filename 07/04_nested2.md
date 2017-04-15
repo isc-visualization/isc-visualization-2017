@@ -99,7 +99,7 @@ var bar = region.selectAll('.bar')
   .attr('class', 'bar')
   .attr('y', function(d){return position(d.position);})
   .attr('width', function(d){return value(d.value)})
-  .attr('height', position.bandwidth);
+  .attr('height', position.bandwidth());
 ```
 
 색상 추가
