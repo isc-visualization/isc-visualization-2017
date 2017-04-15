@@ -14,7 +14,7 @@ var barEnter = bar.enter().append('g')
   .attr('class', 'bar')
   .call(updateBar)
   .attr('transform', function(d) {
-    return 'translate('+ [x.range()[1], xyc.get(this).y] + ')'; //range바깥에서 시작된다
+    return 'translate('+ [x.range()[1], xy.get(this)[1] + ')'; //range바깥에서 시작된다
   })
   .style('opacity', 0);
 ```
