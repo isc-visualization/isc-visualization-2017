@@ -49,7 +49,6 @@ var matrix = [
   [ 4,  5,  6,  7], //tr : matrix[1]
   [ 8,  9, 10, 11], //tr : matrix[2]
   [12, 13, 14, 15], //tr : matrix[3]
-  ]
 ];
 
 console.log(matrix[1]);
