@@ -9,7 +9,7 @@
 시리즈별로 데이터가 정리
 ---
 
-- [샘플 파일](sample/sample.line.json)을 불러와서, `c`를 key로 하여 묶는다. => `c`에 의해 묶인 데이터가 개별 라인(시리즈)가 된다.
+- [샘플 파일](https://raw.githubusercontent.com/isc-visualization/isc-visualization-2017/master/08/sample/sample.line.json)을 불러와서, `c`를 key로 하여 묶는다. => `c`에 의해 묶인 데이터가 개별 라인(시리즈)가 된다.
 
 ```javascript
 var nest = d3.nest()
