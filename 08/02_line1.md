@@ -18,7 +18,9 @@ SVG path
 - 라인 그리기
 
 ```html
+<svg>
 <path d="M10 10 h 80 v 80 h -80 Z" fill="transparent" stroke="black"/>
+</svg>
 ```
 - M : Move To 점을 이동하기
 
