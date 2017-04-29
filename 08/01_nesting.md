@@ -141,13 +141,21 @@ function compareStrings(a,b) { //오름차순으로 정렬
 ```javascript
 
 var numbers = [3,1,2,0,4];
-items.sort(function (a, b) {
+numbers.sort(function (a, b) {
   return a - b // 3-1 = 2 => 3이 뒤로 감
 });
 
 var items = ['réservé', 'premier', 'cliché', 'communiqué', 'café', 'adieu'];
 items.sort(function (a, b) {
   return a.localeCompare(b); //스트링을 비교해서 a가 b보다 작으면 - 같으면 0 크면 +
+});
+
+ var numbers = [3,1,2,0,4,2,3,1,4]; //
+ var targets = [1,3,2,4,0];
+ numbers.sort(function(a,b) {
+   return targets.indexOf(a) - targets.indexOf(b);
+ });
+ console.log(numbers);
 });
 ```
 
