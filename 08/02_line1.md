@@ -120,7 +120,14 @@ svg.append('path')
   .attr('class', 'line')
   .style('fill', 'none')
   .style('stroke', 'steelblue')
-  .attr('d', line); //function(d) {return path}
+  .attr('d', function(d) {
+  console.log(d);
+  console.log(line(d));
+  return line(d);
+})//.attr('d', line);
+
+
+  
 ```
 
 
