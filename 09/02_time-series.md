@@ -81,7 +81,7 @@ var yDomain = d3.extent( // yDomain의 범위가 ABC 마다 서로 다르기 때
       return d3.extent(data, function(d){return d[k];
     })
   })));
-var y = d3.scaleTime().domain(yDomain)
+var y = d3.scaleLinear().domain(yDomain)
   .range([innerH, 0]);
 var c = d3.scaleOrdinal().domain(valueFieldNames)
   .range(d3.schemeCategory10);
