@@ -6,7 +6,7 @@
 3. [트리맵 2](./03_treemap2.md)
 
 
-## 과제 11 트리맵 Treemap
+## 과제 11 확대축소 트리맵 Zoomable Treemap
 
 ![sample](./sample/sample.gif)
 
