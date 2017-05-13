@@ -19,11 +19,12 @@ function node(_selection, d) { // 데이터 d는 현재 레벨에 해당하는 �
     .attr('class', 'node')
     .each(function(d) { // 자식 노드들을 가지고 있는 경우 동일하게 node 함수를 실행하도록 한다. 
       if(d.children) { //자식 노드가 있을 경우 재귀적으로 추가
+         console.log('parent node: ' + d.data.key);
         d3.select(this)
           .call(node, d.children); 
       } else {
         // 재귀 함수가 종료
-        console.log('leaf node': d.data.key);
+        console.log('leaf node: ' + d.data.key);
       }
     })
   return _selection;
