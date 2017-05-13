@@ -33,6 +33,11 @@ function node(_selection, d) { // 데이터 d는 현재 레벨에 해당하는 �
 ```
 
 
+```
+svg.call(node, [hierarchy]); // hierarchy 오브젝트를 배열로 만들어서 전달하는 것에 주의
+```
+
+
 부모노드와 자식노드 구분하기
 ---
 
