@@ -112,11 +112,11 @@ svg.call(node, [hierarchy]); // hierarchy 오브젝트를 배열로 만들어서
 ```javascript
 _selection.select('rect').on('mouseenter', function(d) {
   d3.event.stopPropagation();
-  d3.select(d3.select(this).node().parentNode).selectAll('.leaf > rect')
+  d3.select(this.parentNode).selectAll('.leaf > rect')
     .style('fill', 'lemonchiffon');
 }).on('mouseleave', function(d) {
   d3.event.stopPropagation();
-  d3.select(d3.select(this).node().parentNode).selectAll('.leaf > rect')
+  d3.select(this.parentNode).selectAll('.leaf > rect')
     .style('fill', function(d){return color(findParent(d, 1).data.name)});
 })
 ```
