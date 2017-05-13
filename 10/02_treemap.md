@@ -1,6 +1,8 @@
 트리맵 Treemap
 ===
 
+- [샘플 데이터](./sample/flare.json)
+
 목표
 ---
 - d3-hierarchy의 d3.treemap을 통해 treemap을 구현해본다
