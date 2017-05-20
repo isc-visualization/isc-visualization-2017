@@ -39,6 +39,11 @@
 
 - pudding.coll
   https://pudding.cool/2017/03/elections/
+
+- 뉴욕타임즈 you draw it
+  https://www.nytimes.com/interactive/2017/01/15/us/politics/you-draw-obama-legacy.html
+  http://project.newsjel.ly/governments/
+  
 ---
 
 - 제출마감 : `2017-05-27 (토) 09:00`
