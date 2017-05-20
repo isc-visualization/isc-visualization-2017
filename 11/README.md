@@ -43,5 +43,5 @@
 
 - 제출마감 : `2017-05-27 (토) 09:00`
 - 제출방법
- - [제출 폴더](https://drive.google.com/drive/folders/0B6tl9QHjJ5E5cjZyZE84clRlaDQ?usp=sharing)
- - 제출명 : 파일명 `이름-학번-주제` 
+  - [제출 폴더](https://drive.google.com/drive/folders/0B6tl9QHjJ5E5cjZyZE84clRlaDQ?usp=sharing)
+  - 제출명 : 파일명 `이름-학번-주제` 
