@@ -6,7 +6,7 @@
 - 네트워크 구조를 매트릭스 형태에 간단히 표현
 
 
-[실습 파일](miserables.json)
+[실습 파일](./sample/miserables.json)
 ---
  - `nodes`와 `links`로 구분
  - `nodes`에는 개별 인물의 `id`와 `group`속성이 있음
